@@ -1,6 +1,6 @@
 # DHCP-SERVER-DEBIAN-BasicManual
 
-1. Introduc
+1. Introduction
 2. Install service DHCP and configuration
 3. Install Relay server
 4. Install Failover
