@@ -12,3 +12,12 @@ After that, we can configure the following files:
 `/etc/default/isc-dhcp-server`, `/etc/dhcp/dhcpd.conf` and `/etc/network/interfaces`
 
 First, we need to configure /etc/network/interfaces to assign a static IP address.
+### /etc/network/interfaces
+![img](/img/address-server.png)
+
+After that, we will configure the DHCP server files.
+### 1. /etc/default/isc-dhcp-server
+![img](/img/ethernet-server.png)
+### 2. /etc/dhcp/dhcpd.conf
+
+![img](/img/config.png)
