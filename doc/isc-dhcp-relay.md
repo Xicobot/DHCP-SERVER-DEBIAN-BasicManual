@@ -28,3 +28,4 @@ In the highlighted line, you can see the line that needs to be configured, and w
 
 After configuring IPv4 forwarding, we restart the `networking.service` to apply the changes, and now we should proceed with the failover configuration.
 
+[Previews page](isc-dhcp-server.md) --- [Next page](isc-dhcp-failover.md) 
