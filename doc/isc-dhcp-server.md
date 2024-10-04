@@ -18,7 +18,7 @@ Change the address and the netmask to match your local network.
 After that, we will configure the DHCP server files.
 ### 1. /etc/default/isc-dhcp-server
 ![img](/img/ethernet-server.png)
-Change the address and the netmask to reflect your local network that will provide IP addresses.
+Change the interface to reflect your local network that will provide IP addresses.
 ### 2. /etc/dhcp/dhcpd.conf
 ![img](/img/config.png)
 This is where we will assign the pool of IP addresses and other configurations. The important sections to note are the "Failover" section and the range of the IP address pool
