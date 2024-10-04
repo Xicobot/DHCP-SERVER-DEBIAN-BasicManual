@@ -25,3 +25,6 @@ This is where we assign the interfaces that we will define, one for the server a
 ### 3. /etc/sysctl.conf
 ![img](/img/ipforwarding.png)
 In the highlighted line, you can see the line that needs to be configured, and with this, we would have the file configured.
+
+After configuring IPv4 forwarding, we restart the `networking.service` to apply the changes, and now we should proceed with the failover configuration.
+
