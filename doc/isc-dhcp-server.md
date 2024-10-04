@@ -24,3 +24,4 @@ Change the address and the netmask to reflect your local network that will provi
 This is where we will assign the pool of IP addresses and other configurations. The important sections to note are the "Failover" section and the range of the IP address pool
 ### 3. DHCP Leases
 This is an extra step, if you want to see if your DHCP gives DHCP correctly and assings a clients IP, you can check it in: `/var/lib/dhcp/dhcpd.leases`
+![img](/img/LEASES-SERVER.png)
