@@ -25,3 +25,5 @@ This is where we will assign the pool of IP addresses and other configurations. 
 ### 3. DHCP Leases
 This is an extra step, if you want to see if your DHCP gives DHCP correctly and assings a clients IP, you can check it in: `/var/lib/dhcp/dhcpd.leases`
 ![img](/img/LEASES-SERVER.png)
+
+[Next page](isc-dhcp-relay.md)
