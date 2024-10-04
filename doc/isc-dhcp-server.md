@@ -11,5 +11,4 @@ apt install isc-dhcp-server
 After that, we can configure the following files:
 `/etc/default/isc-dhcp-server`, `/etc/dhcp/dhcpd.conf` and `/etc/network/interfaces`
 
-First, we need to configure /etc/network/interfaces to set a static IP address.
-
+First, we need to configure /etc/network/interfaces to assign a static IP address.
