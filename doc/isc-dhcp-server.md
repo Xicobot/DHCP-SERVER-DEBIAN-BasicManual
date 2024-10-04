@@ -14,10 +14,13 @@ After that, we can configure the following files:
 First, we need to configure /etc/network/interfaces to assign a static IP address.
 ### /etc/network/interfaces
 ![img](/img/address-server.png)
-
+Change the address and the netmask to match your local network.
 After that, we will configure the DHCP server files.
 ### 1. /etc/default/isc-dhcp-server
 ![img](/img/ethernet-server.png)
+Change the address and the netmask to reflect your local network that will provide IP addresses.
 ### 2. /etc/dhcp/dhcpd.conf
-
 ![img](/img/config.png)
+This is where we will assign the pool of IP addresses and other configurations. The important sections to note are the "Failover" section and the range of the IP address pool
+### 3. DHCP Leases
+This is an extra step, if you want to see if your DHCP gives DHCP correctly and assings a clients IP, you can check it in: `/var/lib/dhcp/dhcpd.leases`
