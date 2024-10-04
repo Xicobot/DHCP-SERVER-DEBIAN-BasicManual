@@ -9,7 +9,7 @@ So in this documentation you'll see how to install this service and how it works
 
 ![Img](https://imgs.search.brave.com/aa1oDanJVZpIlxpir4-xMj9SPVVTEQ1GKL41oprl7go/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGVjaHRhcmdldC5j/b20vcm1zL29ubGlu/ZUltYWdlcy9uZXR3/b3JraW5nLWRoY3Bf/aGFuZHNoYWtlX21v/YmlsZS5qcGc)
 
-The DHCP protocol works through a four-step process known as DORA: Discovery, Offer, Request, and Acknowledgment.
+The DHCP protocol works through a four-step process known as DORA or DHCP Handshake: Discovery, Offer, Request, and Acknowledgment.
 
 1. DHCP Discovery (DHCPDISCOVER)
 When a client device (such as a laptop or phone) joins a network, it sends out a DHCPDISCOVER message to discover DHCP servers on the network.
