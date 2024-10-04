@@ -39,4 +39,4 @@ For this project, we'll use four machines in diferent local networks:
 - DHCP Relay: A device (or machine) that forwards DHCP requests between different network segments, allowing clients in other subnets to communicate with the DHCP server.
 - DHCP Client: The machine that receives the IP address from the DHCP server.
 
-[Next](/doc/isc-dhcp-relay.md)
+[Next](/doc/isc-dhcp-server.md)
