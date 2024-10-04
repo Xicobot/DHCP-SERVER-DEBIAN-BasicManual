@@ -14,4 +14,7 @@ apt update
 apt upgrade
 apt install isc-dhcp-relay
 ```
-After install, we'll have to configure once again the local network.
+After install, we'll have to configure once again the local network, the local file is located in `/etc/network/interfaces`
+
+### /etc/network/interfaces
+![img](/img/Net-relay.png)
