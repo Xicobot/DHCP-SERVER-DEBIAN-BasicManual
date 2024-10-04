@@ -6,9 +6,8 @@ This is usually helpful for administrators 'cause if you know anything about adm
 So in this documentation you'll see how to install this service and how it works.
 
 ## How it works?
-<p align=left>
 ![Img](https://imgs.search.brave.com/aa1oDanJVZpIlxpir4-xMj9SPVVTEQ1GKL41oprl7go/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dGVjaHRhcmdldC5j/b20vcm1zL29ubGlu/ZUltYWdlcy9uZXR3/b3JraW5nLWRoY3Bf/aGFuZHNoYWtlX21v/YmlsZS5qcGc)
-</p>
+
 
 The DHCP protocol works through a four-step process known as DORA or DHCP Handshake: Discovery, Offer, Request, and Acknowledgment.
 
