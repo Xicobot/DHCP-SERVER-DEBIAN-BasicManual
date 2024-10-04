@@ -7,3 +7,11 @@ The primary objective of the DHCP Relay is to enable clients in different subnet
 
 In summary, the DHCP Relay facilitates the smooth operation of DHCP services across different network segments, allowing for centralized management of IP address distribution.
 
+## Configuration and instalation guide
+First we do as always
+```
+apt update
+apt upgrade
+apt install isc-dhcp-relay
+```
+After install, we'll have to configure once again the local network.
