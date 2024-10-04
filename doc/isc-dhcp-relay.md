@@ -21,5 +21,7 @@ After installation, we will need to configure the local network and the configur
 Change the address and the netmask to match your local network. After that, we will configure the DHCP server files.
 ### 2. /etc/default/isc-dhcp-relay
 ![img](/img/relay-config.png)
+This is where we assign the interfaces that we will define, one at the server and one at the client.
 ### 3. /etc/sysctl.conf
 ![img](/img/ipforwarding.png)
+In the highlighted line, you can see the line that needs to be configured, and with this, we would have the file configured.
