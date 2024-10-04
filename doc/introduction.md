@@ -33,7 +33,7 @@ This message includes the IP address, lease time, and any other network settings
 Once the client receives the DHCPACK, it configures its network interface with the provided information and starts using the network with the assigned IP address.
 
 Key Components:
-For this project, we'll use four machines:
+For this project, we'll use four machines in diferent local networks:
 - DHCP Server: The machine responsible for providing IP addresses.
 - DHCP Failover: A secondary machine that will take over if the main server shuts down or experiences any issues. It will provide the same pool of IP addresses as the primary server.
 - DHCP Relay: A device (or machine) that forwards DHCP requests between different network segments, allowing clients in other subnets to communicate with the DHCP server.
