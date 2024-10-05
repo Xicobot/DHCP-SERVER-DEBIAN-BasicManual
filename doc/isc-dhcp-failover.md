@@ -11,3 +11,5 @@ In a failover setup, two DHCP servers (the primary and the failover) share the r
 Both servers communicate regularly through a failover protocol, ensuring that the IP address lease database stays synchronized. This way, if one server fails, the other can seamlessly continue to manage the leases without causing conflicts or interruptions in network service.
 
 In our case, we need to configure the failover in case the primary DHCP server suddenly shuts down.
+
+Configuration file: `/etc/dhcp/dhcpd.conf` (this is the only one we need to edit, as it's almost identical to the DHCP server configuration, but it functions as a backup).
