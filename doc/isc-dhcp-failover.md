@@ -16,3 +16,4 @@ Configuration file: `/etc/dhcp/dhcpd.conf` (this is the only one we need to edit
 
 # /etc/dhcp/dhcpd.conf
 ![img](/img/Failover.conf.png)
+[Previews page](/doc/isc-dhcp-relay.md)
