@@ -13,3 +13,6 @@ Both servers communicate regularly through a failover protocol, ensuring that th
 In our case, we need to configure the failover in case the primary DHCP server suddenly shuts down.
 
 Configuration file: `/etc/dhcp/dhcpd.conf` (this is the only one we need to edit, as it's almost identical to the DHCP server configuration, but it functions as a backup).
+
+# /etc/dhcp/dhcpd.conf
+![img](/img/Failover.conf.png)
