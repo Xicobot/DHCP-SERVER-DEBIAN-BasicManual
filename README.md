@@ -6,7 +6,6 @@
 4. [Install Failover](doc/isc-dhcp-failover.md)
 
 ## References:
-- [fpgenred](https://www.fpgenred.es/DHCP/index.html)
 - [chatgpt](https://chatgpt.com/)
 
 # License
